@@ -108,7 +108,6 @@ class Data_Gui:
         self.printbutt.grid(column = 0, row = 11)
     
     def cleartext(self):
-        """Clear text function for debugging test."""
         for box in self.list_of_boxes:
             box.delete(0, "end")
 

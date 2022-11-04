@@ -2,7 +2,7 @@
 Ken Michna
 Project 4 GUI
 
-2 test functions for UFO GUI
+A test function for UFO GUI
 """
 import tkinter as tk
 
@@ -26,5 +26,5 @@ def test_star_entry_box():
 
     assert test_var == comp_var
 
-#print(test_guiroot_is_tk())
-#print(test_star_entry_box())
+print(test_guiroot_is_tk())
+print(test_star_entry_box())
